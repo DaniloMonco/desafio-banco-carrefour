@@ -1,0 +1,6 @@
+@ControleLancamento.Api_HostAddress = http://localhost:5177
+
+GET {{ControleLancamento.Api_HostAddress}}/lancamento/
+Accept: application/json
+
+###
