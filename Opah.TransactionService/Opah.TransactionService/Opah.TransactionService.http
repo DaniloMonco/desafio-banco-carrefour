@@ -1,0 +1,6 @@
+@VERX.TransactionService_HostAddress = http://localhost:5191
+
+GET {{VERX.TransactionService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

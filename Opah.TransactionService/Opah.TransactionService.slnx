@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="Opah.Transaction.Domain.Test/Opah.Transaction.Domain.Test.csproj" Id="22ecfc70-cfab-4306-a6b2-d26bf0dc4676" />
+    <Project Path="Opah.TransactionService.Application.Test/Opah.TransactionService.Application.Test.csproj" Id="f3704e9d-df64-4140-b7f1-122134190655" />
+    <Project Path="Opah.TransactionService.Infrastructure.Tests/Opah.TransactionService.Infrastructure.Tests.csproj" Id="eb73341d-486e-430f-bf11-9051a2ccd4ea" />
+  </Folder>
+  <Project Path="Opah.TransactionService.Application/Opah.TransactionService.Application.csproj" />
+  <Project Path="Opah.TransactionService.Domain/Opah.TransactionService.Domain.csproj" />
+  <Project Path="Opah.TransactionService.Infrastructure/Opah.TransactionService.Infrastructure.csproj" />
+  <Project Path="Opah.TransactionService/Opah.TransactionService.Api.csproj" />
+</Solution>

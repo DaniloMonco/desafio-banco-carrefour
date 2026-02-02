@@ -1,0 +1,32 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+      http:
+        endpoint: 0.0.0.0:4318
+
+processors:
+  batch:
+
+exporters:
+  otlphttp/elastic:
+    # O endpoint deve ser o do seu APM (com a porta 443)
+    endpoint: "https://bee85934110e40a4ab660ef255b4769c.ingest.us-central1.gcp.elastic.cloud:443"
+    headers:
+      Authorization: "ApiKey czNTQkZad0J5WjFnT0tEQm5fWkM6bmEwLTg3ekFPb3dFa3VCckNVSTZfUQ=="
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [otlphttp/elastic]
+    metrics:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [otlphttp/elastic]
+    logs:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [otlphttp/elastic]

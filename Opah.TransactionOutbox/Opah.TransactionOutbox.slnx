@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="Opah.TransactionOutbox.Application.Test/Opah.TransactionOutbox.Application.Test.csproj" Id="0dd0c588-048b-4536-a508-15321b2decc3" />
+    <Project Path="Opah.TransactionOutbox.Domain.Test/Opah.TransactionOutbox.Domain.Test.csproj" Id="780ff7a7-e462-4eea-92c2-b03296fcbe59" />
+    <Project Path="Opah.TransactionOutbox.Infrastructure.Test/Opah.TransactionOutbox.Infrastructure.Test.csproj" Id="fe9bab31-c9fa-41bb-bb35-c7a4191ddc7c" />
+  </Folder>
+  <Project Path="Opah.TransactionOutbox.Application/Opah.TransactionOutbox.Application.csproj" Id="7c09f151-0b41-47d1-9da6-b6c9781a889c" />
+  <Project Path="Opah.TransactionOutbox.Domain/Opah.TransactionOutbox.Domain.csproj" Id="f56ae6f3-abc1-4a1f-9307-408b8e7966b7" />
+  <Project Path="Opah.TransactionOutbox.Infrastructure/Opah.TransactionOutbox.Infrastructure.csproj" Id="ffd72f29-85e4-4f29-9509-9d96b6d1e7b7" />
+  <Project Path="Opah.TransactionOutbox/Opah.TransactionOutbox.csproj" />
+</Solution>

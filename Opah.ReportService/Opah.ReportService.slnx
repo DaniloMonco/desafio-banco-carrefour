@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="Opah.ReportService.Application.Test/Opah.ReportService.Application.Test.csproj" Id="e412499d-1107-4726-aa29-a828d625e10b" />
+    <Project Path="Opah.ReportService.Domain.Test/Opah.ReportService.Domain.Test.csproj" Id="c7ccaddc-7887-4c2d-a4af-46088ee7378b" />
+    <Project Path="Opah.ReportService.Infrastructure.Test/Opah.ReportService.Infrastructure.Test.csproj" Id="e91c5864-0229-471e-9f74-847e977fac02" />
+  </Folder>
+  <Project Path="Opah.ReportService.Api/Opah.ReportService.Api.csproj" />
+  <Project Path="Opah.ReportService.Application/Opah.ReportService.Application.csproj" />
+  <Project Path="Opah.ReportService.Domain/Opah.ReportService.Domain.csproj" />
+  <Project Path="Opah.ReportService.Infrastructure/Opah.ReportService.Infrastructure.csproj" />
+</Solution>
