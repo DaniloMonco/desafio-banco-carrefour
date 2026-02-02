@@ -12,9 +12,9 @@ processors:
 exporters:
   otlphttp/elastic:
     # O endpoint deve ser o do seu APM (com a porta 443)
-    endpoint: "https://bee85934110e40a4ab660ef255b4769c.ingest.us-central1.gcp.elastic.cloud:443"
+    endpoint: "https://xxxxx.ingest.us-central1.gcp.elastic.cloud:443"
     headers:
-      Authorization: "ApiKey czNTQkZad0J5WjFnT0tEQm5fWkM6bmEwLTg3ekFPb3dFa3VCckNVSTZfUQ=="
+      Authorization: "ApiKey xxxxxxxx"
 
 service:
   pipelines:
